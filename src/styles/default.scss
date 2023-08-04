@@ -1,6 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+@font-face {
+    font-family: 'Recoleta';
+    src: url("../assets/fonts/Recoleta-RegularDEMO.eot");
+    src: url("../assets/fonts/Recoleta-RegularDEMO.eot?#iefix") format('embedded-opentype'),
+        url("../assets/fonts/Recoleta-RegularDEMO.woff2") format('woff2'),
+        url("../assests/fonts/Recoleta-RegularDEMO.woff") format('woff'),
+        url("../assests/fonts/Recoleta-RegularDEMO.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 $defaultfonts: 'Urbanist', sans-serif;
+$herofonts: 'Recoleta', sans-serif;
 $blue: #0E99D2;
 $purple2: #7F56D9;
 $black: #101828;
@@ -10,9 +24,33 @@ $grey3: #475467;
 $white: #FFFFFF;
 $white2: #EAECF0;
 
+
+
 body{
     padding: 0;
     margin: 0;
     font-family: $defaultfonts;
     background-color: $white;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
 }
+
+html.lenis {
+    height: auto;
+  }
+  
+  .lenis.lenis-smooth {
+    scroll-behavior: auto;
+  }
+  
+  .lenis.lenis-smooth [data-lenis-prevent] {
+    overscroll-behavior: contain;
+  }
+  
+  .lenis.lenis-stopped {
+    overflow: hidden;
+  }
+  
+  .lenis.lenis-scrolling iframe {
+    pointer-events: none;
+  }
