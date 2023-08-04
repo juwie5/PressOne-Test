@@ -1,0 +1,26 @@
+.nav{
+    padding: 1.375rem 7.5rem 0 7.5rem;
+    .inner-nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    .nav-list{
+        display: flex;
+        gap: 3.5rem;
+        li {
+            list-style-type: none;
+            font-size: 1rem;
+            color: $grey;
+        }
+        
+    }
+    .nav-btn{
+        width: 145px;
+        height: 45px;
+        border: 1px solid $blue;
+        border-radius: 4px;
+        color: $blue;
+        background-color: transparent;
+        padding: 0.875rem 1.5rem;
+    }
+}
