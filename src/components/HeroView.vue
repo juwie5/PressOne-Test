@@ -60,5 +60,9 @@ const keyStrength = ref([
 </script>
 
 <style lang="scss">
-
+.hero {
+  background-image: url("src/assets/images/hero-background.png");
+  background-repeat: no-repeat;
+  margin-top: -1.5rem;  
+}
 </style>

@@ -16,7 +16,7 @@
 <style lang="scss" scoped>
 @import '../src/styles/default.scss';
 .offer {
-  background-image: url("src/assets/images/hero-background.png");
+  background-image: url("../assets/images/hero-background.png");
   background-repeat: no-repeat;
 }
 .offer-cards-section {
