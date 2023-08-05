@@ -21,72 +21,43 @@
         </div>
       </div>
       <div>
-        <img class="hero-image" src="../assets/hero-image.png" alt="landing-page-image" />
+        <img class="hero-image" src="../assets/images/hero-image.png" alt="landing-page-image" />
       </div>
+    </section>
+    <section class="hero-cards-section">
+        <div v-for="item in keyStrength" :key="item">
+            <div class="hero-card">
+                <HeroheaderIcon/>
+                <div>
+                    <p>
+                       {{ item.title }}
+                    </p>
+                </div>
+            </div>
+        </div>
     </section>
   </section>
 </template>
 
-<script setup></script>
+<script setup>
+import { ref } from 'vue';
+import HeroheaderIcon from '../assets/icons/HeroHeaderIcon.vue';
+
+const keyStrength = ref([
+    {
+        title: '75% of consumers prefer human interactions to automated interactions.'
+    },
+    {
+        title: "81% of consumers say a positive customer service experience increases the chances of them making another purchase."
+    },
+    {
+        title: "76% of surveyed customers contact customer service over the phone."
+    },
+    {
+        title: "68% of buyers will pay more for products and services from a company with a strong record of good customer service."
+    }
+])
+</script>
 
 <style lang="scss">
-@import "../src/styles/default.scss";
-
-.hero {
-  height: 100vh;
-  background-image: url("../assets/hero-background.png");
-  background-repeat: no-repeat;
-  margin-top: -1.5rem;
-  padding: 0 7.5rem;
-}
-
-.hero-main {
-  display: flex;
-  align-items: center;
-  padding-top: 5.125rem;
-}
-
-.space{
-    margin: 2rem 0 0 0;
-}
-.space2{
-    margin: 1rem 0 0 0;
-}
-
-.hero-text {
-  width: 686px;
-  .blue-text {
-    color: $blue;
-  }
-  h1 {
-    font-family: $herofonts;
-    font-size: 3rem;
-    margin: 0;
-  }
-  h4 {
-    font-size: 2rem;
-    font-family: $herofonts;
-    margin: 0;
-  }
-  p {
-    font-size: 1.25rem;
-    color: $grey;
-    margin: 0 ;
-    line-height: 28px;
-  }
-}
-
-.hero-cta-btn{
-    margin-top: 6rem;
-    width: 20.063rem;
-    height: 3.5rem;
-    border: none;
-    background-color: $blue;
-    color: $white;
-    font-size: 1.125rem;
-    border-radius: 0.25rem;
-}
-.hero-image{
-    margin-top: 80px;
-}
 </style>

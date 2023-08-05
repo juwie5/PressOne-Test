@@ -16,7 +16,7 @@
 </template>
 
 <script setup>
-import PressOneLogo from '../assets/PressOneLogo.vue';
+import PressOneLogo from '../assets/icons/PressOneLogo.vue';
 
 </script>
 

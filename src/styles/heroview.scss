@@ -1,0 +1,95 @@
+.hero {
+    height: 100vh;
+    background-image: url("../assets/images/hero-background.png");
+    background-repeat: no-repeat;
+    margin-top: -1.5rem;
+  
+    
+  }
+  
+  .hero-main {
+    display: flex;
+    align-items: center;
+    padding: 5.125rem 7.5rem;
+  }
+  
+  .space{
+      margin: 2rem 0 0 0;
+  }
+  .space2{
+      margin: 1rem 0 0 0;
+  }
+  
+  .hero-text {
+    width: 686px;
+    .blue-text {
+      color: $blue;
+    }
+    h1 {
+      font-family: $herofonts;
+      font-size: 3rem;
+      margin: 0;
+      color: $black;
+    }
+    h4 {
+      font-size: 2rem;
+      font-family: $herofonts;
+      margin: 0;
+      color: $black2;
+      font-style: normal;
+    }
+    p {
+      font-size: 1.25rem;
+      color: $grey;
+      margin: 0 ;
+      line-height: 28px;
+    }
+  }
+  
+  .hero-cta-btn{
+      margin-top: 6rem;
+      width: 20.063rem;
+      height: 3.5rem;
+      border: none;
+      background-color: $blue;
+      color: $white;
+      font-size: 1.125rem;
+      border-radius: 0.25rem;
+  }
+  .hero-image{
+      margin-top: 80px;
+  }
+  
+  .hero-cards-section{
+      background: $blue;
+      padding: 9rem 7.5rem 5rem 7.5rem;
+      margin-top: 4.5rem;
+      display: flex;
+      gap: 2rem;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .hero-card{
+      background-color: $white2;
+      color: $grey2;
+      width: 16.875rem;
+       height: 4rem;
+      padding: 64px 16px 54px 16px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+      border-radius: 10px;
+      position: relative;
+      p{
+          text-align: center;
+          font-size: 1rem;
+          width: 238px;
+          margin-top: 64px 24px;
+      }
+      svg{
+          position: absolute;
+          top: -60px;
+      }
+  }
