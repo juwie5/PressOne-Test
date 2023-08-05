@@ -1,9 +1,8 @@
-
-  
   .hero-main {
     display: flex;
     align-items: center;
     padding: 5.125rem 7.5rem;
+    z-index: 4;
   }
   
   .space{
@@ -61,6 +60,7 @@
       gap: 2rem;
       justify-content: center;
       align-items: center;
+      
   }
   
   .hero-card{
