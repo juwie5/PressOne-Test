@@ -2,16 +2,17 @@
     <section >
       <Navbar/>
       <HeroView/>
+      <OffersView/>
     </section>
 </template>
 
 <script setup>
 import Navbar from './Navbar.vue';
 import HeroView from './HeroView.vue';
+import OffersView from './OffersView.vue';
 
 </script>
 
 <style lang="scss" scoped>
-
 
 </style>

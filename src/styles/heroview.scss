@@ -1,11 +1,8 @@
 .hero {
-    height: 100vh;
-    background-image: url("../assets/images/hero-background.png");
-    background-repeat: no-repeat;
-    margin-top: -1.5rem;
-  
-    
-  }
+  background-image: url("src/assets/images/hero-background.png");
+  background-repeat: no-repeat;
+  margin-top: -1.5rem;  
+}
   
   .hero-main {
     display: flex;
@@ -74,7 +71,7 @@
       background-color: $white2;
       color: $grey2;
       width: 16.875rem;
-       height: 4rem;
+      height: 4rem;
       padding: 64px 16px 54px 16px;
       display: flex;
       flex-direction: column;
