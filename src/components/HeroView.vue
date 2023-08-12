@@ -59,7 +59,7 @@ const keyStrength = ref([
 ])
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 .hero {
   background-image: url("../assets/images/hero-background.png");
   background-repeat: no-repeat;

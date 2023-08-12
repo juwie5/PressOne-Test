@@ -4,6 +4,7 @@
       <HeroView/>
       <OffersView/>
       <PlansView/>
+      <FooterView/>
     </section>
 </template>
 
@@ -12,9 +13,10 @@ import Navbar from './Navbar.vue';
 import HeroView from './HeroView.vue';
 import OffersView from './OffersView.vue';
 import PlansView from './PlansView.vue';
+import FooterView from './FooterView.vue';
 
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 
 </style>

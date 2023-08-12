@@ -12,5 +12,6 @@ import { RouterView } from 'vue-router'
 @import '../src/styles/navbar.scss';
 @import '../src/styles/heroview.scss';
 @import '../src/styles/offerview.scss';
+@import '../src/styles/planview.scss';
 
 </style>
