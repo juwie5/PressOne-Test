@@ -3,6 +3,7 @@
       <Navbar/>
       <HeroView/>
       <OffersView/>
+      <PlansView/>
     </section>
 </template>
 
@@ -10,6 +11,7 @@
 import Navbar from './Navbar.vue';
 import HeroView from './HeroView.vue';
 import OffersView from './OffersView.vue';
+import PlansView from './PlansView.vue';
 
 </script>
 

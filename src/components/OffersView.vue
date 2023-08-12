@@ -75,62 +75,11 @@ import CircleIcon from "../assets/icons/CircleIcon.vue";
 </script>
 
 <style lang="scss" scoped>
-@import "../src/styles/default.scss";
+
 .offer {
   background-image: url("../assets/images/hero-background.png");
   background-repeat: no-repeat;
-  padding-top: -3.5rem;
-}
-.offer-cards-section {
-  padding: 7.5rem 7.5rem;
+  background-position: 26px -50px;
 }
 
-.offer-stack{
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.offer-card {
-  width: 30.5rem;
-  border-radius: 20px;
-  border: 1px solid #eeeeee;
-  img {
-    border-radius: 5%;
-  }
-  background-color: $white;
-  color: $grey2;
-}
-
-.offer-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  gap: 40px;
-  border-radius: 20px;
-  position: relative;
-  .svg-head {
-    position: absolute;
-    top: -80px;
-  }
-  padding: 40px 32px;
-}
-
-.offer-header {
-  text-align: center;
-  margin: 40px 0 0 32px;
-  font-family: $herofonts;
-  font-size: 32px;
-}
-
-.offer-inner {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  p {
-    width: 23.966rem;
-    color: $grey;
-    font-size: 18px;
-  }
-}
 </style>

@@ -15,11 +15,13 @@
 
 $defaultfonts: 'Urbanist', sans-serif;
 $herofonts: 'Recoleta', sans-serif;
-$blue: #0E99D2;
+$blue: #0E99D2; 
 $black: #212121;
 $black2: #35383F; 
 $grey : #616C74; 
-$grey2: #474B50;
+$grey2: #474B50; 
+$grey3: #D9E2E7;
+$grey4: #A7B4BE;
 $white: #FFFFFF;
 $white2: #F3F8FE;
 
@@ -53,7 +55,6 @@ html.lenis {
   .lenis.lenis-scrolling iframe {
     pointer-events: none;
   }
-
 
   .section-header{
     text-align: center;

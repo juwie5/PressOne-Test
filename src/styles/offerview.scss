@@ -1,0 +1,53 @@
+.offer-cards-section {
+    padding: 7.5rem 7.5rem;
+  }
+  
+  .offer-stack{
+      display: flex;
+      justify-content: space-evenly;
+  }
+  
+  .offer-card {
+    width: 30.5rem;
+    border-radius: 20px;
+    border: 1px solid #eeeeee;
+    img {
+      border-top-left-radius: 4%;
+      border-top-right-radius: 5%;
+    }
+    background-color: $white;
+    color: $grey2;
+  }
+  
+  .offer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+    border-radius: 20px;
+    position: relative;
+    .svg-head {
+      position: absolute;
+      top: -80px;
+    }
+    padding: 40px 32px;
+  }
+  
+  .offer-header {
+    text-align: center;
+    margin: 40px 0 0 32px;
+    font-family: $herofonts;
+    font-size: 32px;
+  }
+  
+  .offer-inner {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    p {
+      width: 23.966rem;
+      color: $grey;
+      font-size: 18px;
+    }
+  }
